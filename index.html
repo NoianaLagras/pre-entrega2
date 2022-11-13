@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neathur Shop</title>
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="shortcut icon" href="./img/Logo 1.png" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/2aef7b92d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div>
+          <a href="./index.html">
+          <img src="./img/Logo 1.png" alt="Logo">
+          </a>
+          <h6>Neathur Shop...</h6>
+          </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Productos</a>
+                    <ul class="submenu">
+                        <li><a href="">Anillos</a></li>
+                        <li><a href="">Collares</a></li>
+                        <li><a href="">Pulseras</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Informacion</a>
+                  <ul class="submenu">
+                    <li><a href="">Preguntas Frecuentes</a></li>
+                    <li><a href="">Sobre Nosotros</a></li>
+                  </ul>
+                </li>
+                <li><a href=""> Contacto</a></li>
+            </ul>
+            
+        </nav>
+        <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button  class="btn btn-outline-dark" type="submit" >Search</button>
+        </form>
+    </header>
+<!-- carrusel-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/car (1).jpg" class="d-block w-100" alt="Collares">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/car (3).jpg" class="d-block w-100" alt="./Pulsera">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/car (4).jpg" class="d-block w-100" alt="Anillo">
+      </div>
+
+     <div class="carousel-item">
+        <img src="./img/car (5).jpg" class="d-block w-100" alt="Anillo">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <main>
+      <h1 class="todosLosProductos">Todos Los Productos</h1>
+        <div class="container"> 
+          <div class="item"> <img src="./img/anilloEjemplo.png" alt="Anillo"> <p>Anillo 925</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo2.png" alt="Anillo"> <p>Anillo</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo3.png" alt="Anillo Sol"> <p>Anillo Sol</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo4.png" alt="Anillo"> <p>Anillo</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo5.png" alt="Anillo Luna"> <p>Anillo Luna</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo6.png" alt="Anillo Thanos"> <p>Anillo Thanos</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo7.png" alt="Anillo LOTR"> <p>Anillo LOTR</p> </div>
+          <div class="item"> <img src="./img/anilloEjemplo8.png" alt="Anillo Loki"><p>Anillo Loki</p> </div>
+          <div class="item"> <img src="./img/collarEjemplo.png" alt="Collar Corazon"><p>Collar Corazon</p> </div>  
+          <div class="item"> <img src="./img/collarEjemplo2.png" alt="Collar Luna"><p>Collar Luna</p> </div>  
+          <div class="item"> <img src="./img/pulsera-ejemplo.png" alt="Pulsera"><p>Pulsera 925</p> </div>  
+          <div class="item"> <img src="./img/pulseraEjemplo2.png" alt="PulseraNord"><p>Pulsera Nord</p> </div>  
+          <div class="item"> <img src="./img/pulseraEjemplo3.png" alt="Pulsera"><p>Pulsera 925</p> </div>  
+        </div>
+    </main>
+
+    <footer>
+      <div class="boxFooter">
+        <div class="mapa">
+          <h4>¿Donde estamos?</h4>
+          <i class="fa-solid fa-map-location-dot"></i>
+          <p>New York, NY 10004, Estados Unidos</p>
+        </div>
+  
+        <div class="mediosDePago">
+            <p>Medios de Pago</p>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-solid fa-handshake"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+        </div>
+  
+        <div class="redesSociales"> <h5>Seguinos en Nuestras Redes </h5>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+  
+        <div class="copy">
+          <i class="fa-regular fa-copyright"></i>
+          <p><strong>Copyright 2021Todos los derechos reservados.</strong>  </p> 
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, quod.</p>
+        </div>
+      </div>
+    </footer>
+
+<!--bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
