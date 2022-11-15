@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neathur Shop</title>
-<link rel="stylesheet" href="./css/styles.css">
 <link rel="shortcut icon" href="./img/Logo 1.png" type="image/x-icon">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/2aef7b92d3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body id="body">
     <header>
         <div>
           <a href="./index.html">
@@ -20,7 +19,7 @@
           </div>
         <nav>
             <ul class="menu">
-                <li><a href="">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="">Productos</a>
                     <ul class="submenu">
                         <li><a href="">Anillos</a></li>
@@ -32,6 +31,7 @@
                   <ul class="submenu">
                     <li><a href="">Preguntas Frecuentes</a></li>
                     <li><a href="">Sobre Nosotros</a></li>
+                    <li><a href="">Medida del Anillo</a></li>
                   </ul>
                 </li>
                 <li><a href=""> Contacto</a></li>
@@ -73,19 +73,36 @@
     <main>
       <h1 class="todosLosProductos">Todos Los Productos</h1>
         <div class="container"> 
-          <div class="item"> <img src="./img/anilloEjemplo.png" alt="Anillo"> <p>Anillo 925</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo2.png" alt="Anillo"> <p>Anillo</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo3.png" alt="Anillo Sol"> <p>Anillo Sol</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo4.png" alt="Anillo"> <p>Anillo</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo5.png" alt="Anillo Luna"> <p>Anillo Luna</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo6.png" alt="Anillo Thanos"> <p>Anillo Thanos</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo7.png" alt="Anillo LOTR"> <p>Anillo LOTR</p> </div>
-          <div class="item"> <img src="./img/anilloEjemplo8.png" alt="Anillo Loki"><p>Anillo Loki</p> </div>
-          <div class="item"> <img src="./img/collarEjemplo.png" alt="Collar Corazon"><p>Collar Corazon</p> </div>  
-          <div class="item"> <img src="./img/collarEjemplo2.png" alt="Collar Luna"><p>Collar Luna</p> </div>  
-          <div class="item"> <img src="./img/pulsera-ejemplo.png" alt="Pulsera"><p>Pulsera 925</p> </div>  
-          <div class="item"> <img src="./img/pulseraEjemplo2.png" alt="PulseraNord"><p>Pulsera Nord</p> </div>  
-          <div class="item"> <img src="./img/pulseraEjemplo3.png" alt="Pulsera"><p>Pulsera 925</p> </div>  
+          <div class="item"> <img src="./img/anilloEjemplo.png" alt="Anillo"> <p>Anillo 925</p> <button>Agregar al Carrito</button> </div>
+          <div class="item"> <img src="./img/anilloEjemplo2.png" alt="Anillo"> <p>Anillo</p> <button>Agregar al Carrito</button> </div>
+          <div class="item"> <img src="./img/anilloEjemplo3.png" alt="Anillo Sol"> <p>Anillo Sol</p> <button>Agregar al Carrito</button> </div>
+          <div class="item"> <img src="./img/anilloEjemplo5.png" alt="Anillo Luna"> <p>Anillo Luna</p> <button>Agregar al Carrito</button> </div>
+          <div class="item"> <img src="./img/anilloEjemplo6.png" alt="Anillo Thanos"> <p>Anillo Thanos</p>  <button>Agregar al Carrito</button></div>
+          <div class="item"> <img src="./img/anilloEjemplo7.png" alt="Anillo LOTR"> <p>Anillo LOTR</p>  <button>Agregar al Carrito</button></div>
+          <div class="item"> <img src="./img/anilloEjemplo8.png" alt="Anillo Loki"><p>Anillo Loki</p> <button>Agregar al Carrito</button> </div>
+          <div class="item"> <img src="./img/collarEjemplo.png" alt="Collar Corazon"><p>Collar Corazon</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/collarEjemplo2.png" alt="Collar Luna"><p>Collar Luna</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/pulsera-ejemplo.png" alt="Pulsera"><p>Pulsera 925</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/pulseraEjemplo2.png" alt="PulseraNord"><p>Pulsera Nord</p>  <button>Agregar al Carrito</button></div>  
+          <div class="item"> <img src="./img/Pulsera (1).png" alt="Pulsera"><p>Pulsera</p> <button>Agregar al Carrito</button></div>  
+          <div class="item"> <img src="./img/Pulsera (10).png" alt="Pulsera"><p>Pulsera </p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Pulsera (11).png" alt="Pulsera"><p>Pulsera </p>  <button>Agregar al Carrito</button></div>  
+          <div class="item"> <img src="./img/Pulsera (12).png" alt="Pulsera"><p>Pulsera </p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Pulsera (13).png" alt="Pulsera"><p>Pulsera </p>  <button>Agregar al Carrito</button></div>  
+          <div class="item"> <img src="./img/Pulsera (5).png" alt="Pulsera"><p>Pulsera </p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Pulsera (6).png" alt="Pulsera"><p>Pulsera </p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Pulsera (8).png" alt="Pulsera"><p>Pulsera</p>  <button>Agregar al Carrito</button></div>  
+          <div class="item"> <img src="./img/Pulsera (7).png" alt="Pulsera"><p>Pulsera </p>  <button>Agregar al Carrito</button></div>  
+          <div class="item"> <img src="./img/Pulsera (9).png" alt="Pulsera"><p>Pulsera </p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Anillo2 (2).png" alt="Anillo"><p>Anillo</p>  <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Anillo2 (3).png" alt="Anillo"><p>Anillo LOTR</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Anillo2 (1).png" alt="Anillo"><p>Anillo LOTR</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Collars (1).png" alt="Collar"><p>Collar de Corazon</p>  <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Collars (2).png" alt="Pulsera"><p>Collar de Corazon</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Collars (3).png" alt="Collar"><p>Collar de Amatista</p> <button>Agregar al Carrito</button> </div>  
+          <div class="item"> <img src="./img/Collars (4).png" alt="Collar"><p>Collar Amatista</p>  <button>Agregar al Carrito</button></div>  
+
+
         </div>
     </main>
 
@@ -106,7 +123,7 @@
   
         <div class="redesSociales"> <h5>Seguinos en Nuestras Redes </h5>
           <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-whatsapp"></a></i>
           <i class="fa-brands fa-instagram"></i>
         </div>
   
@@ -118,7 +135,8 @@
       </div>
     </footer>
 
-<!--bootstrap -->
+<!--bootstrap , icons-->
+<script src="https://kit.fontawesome.com/2aef7b92d3.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
