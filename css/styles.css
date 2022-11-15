@@ -6,6 +6,8 @@
     font-weight: 700;
 }
 
+
+
 header {
 width: 100%;
 display:flex;
@@ -15,7 +17,7 @@ position:sticky;
 top: 0;
 background-color: #b8dac2;
 z-index: 999;
-padding: 15px;
+padding: 5px;
 
 }
 h6 {
@@ -85,6 +87,8 @@ nav {
     opacity: 1;
 }
 
+
+
 img {
     max-width: 100%;
 }
@@ -105,35 +109,62 @@ grid-template-rows: auto;
 }
 
 
+
+
 .item {
 
-    background-color: rgb(81, 128, 121);
+    background-color: rgba(81, 128, 121, 0.918);
     color: white;
-    margin: 50px;
+    margin: 40px;
     border-radius: 3px;
     text-align: center;
 }
 .item:hover{
     transform: scale(1.2);
-    transition: 1s;
+    transition: 0.8s;
 }
 .item button{
     background-color: #314742;
     color:rgb(255, 218, 218);
     border: #4bcf49;
     border-radius: 25px ;
-    padding: 10px;
-    margin: 15px;
+    padding: 7px;
+    margin: 10px;
 }
 .item button:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(245, 245, 220, 0.685);
     color: black;
     text-decoration: underline #FF0571 3px;
     text-transform: uppercase;
     transition: 0.5s;
 }
 .item img {
-padding: 35px;
+padding: 10px;
+}
+
+.verMas{
+   color: #FF0571;
+   text-align: center;
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 50px;
+}
+
+
+
+
+.about{
+ margin: 50px auto;
+ background-image: url(../img/About\ \(2\).jpg);
+ padding: 50px;
+}
+.aboutUs{
+    text-align: center;
+    font-weight: 200;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    padding: 40px;
 }
 
 
@@ -164,6 +195,51 @@ label{
 
 
 
+.medidas{
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background-image: url(../img/About\ \(3\).jpg)
+}
+.tablas {
+    background-color: rgba(255, 255, 255, 0.747);
+    padding: 50px;
+}
+.tablas td{
+    padding: 20px;
+}
+
+
+
+.fondoPreguntas{
+    background-image: url(../img/About\ \(3\).jpg);
+    padding: 50px 0px;
+}
+.preguntas{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    font-family: monospace;
+
+}
+.irA{
+    border-radius: 10px;
+    background-color: rgba(81, 128, 121, 0.76);
+    padding: 10px;
+    color: crimson;
+    display: inline-block;
+    margin-bottom: 50px;
+    
+}
+.joy{
+    background-color: #91aa98;
+    color: #1d1b1c;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+
 
 
 
@@ -174,7 +250,6 @@ footer{
     padding: 30px;
     justify-content: space-between;
 }
-
 
 .boxFooter{
     display: flex;
