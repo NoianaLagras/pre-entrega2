@@ -241,7 +241,8 @@ textarea:focus{
 
 .fondoP{
     background-image: url(../img/About\ \(3\).jpg);
-    padding: 50px 0px;
+    margin: 50px auto;
+    padding: 70px 0px;
 }
 .preguntas{
     text-align: center;
