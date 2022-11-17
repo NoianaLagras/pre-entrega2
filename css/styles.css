@@ -311,7 +311,7 @@ background-color: #b8dac2;
 .containerProductos{
 
     display: grid;
-    margin: 20px auto;
+    margin: 60px auto;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -505,7 +505,6 @@ display: none;
 
 footer{
     font-size: 7px;
-    bottom: 0;
 }
 footer h4,footer h5{
     font-size: 10px;
