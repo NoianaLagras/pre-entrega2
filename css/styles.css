@@ -43,6 +43,7 @@ h6 {
 }
 } 
 
+
 nav {
     width: 550px;
 }
@@ -248,7 +249,6 @@ textarea:focus{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.719);
     font-family: monospace;
-
 }
 .irA{
     border-radius: 10px;
@@ -259,6 +259,7 @@ textarea:focus{
     margin-bottom: 50px;
     
 }
+
 .joy{
     background-color: #91aa98;
     color: #1d1b1c;
@@ -301,6 +302,9 @@ grid-area: redes;
     grid-area: medida;
 }
 
+
+
+
 .fondoProductos{
 background-color: #b8dac2;
 }
@@ -308,7 +312,7 @@ background-color: #b8dac2;
 
     display: grid;
     margin: 20px auto;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -318,7 +322,6 @@ background-color: #b8dac2;
 
 .itemTodos{
     grid-area: Todos;
-    max-width: 100%;
 }
 .itemAnillos{
     grid-area: Anillos;
@@ -344,10 +347,16 @@ background-color: #b8dac2;
 }
 
 .itemTodos, .itemAnillos, .itemCollares, .itemPulseras{
-    background-color: rgba(255, 255, 255, 0.767);
-    margin: 10px 15px;
+    background-color: rgb(255, 255, 255);
     max-width: 100%;
+    margin: 15px 0;
+    border-style: outset;
 }
+
+
+
+
+
 
 .boxFooter{
     display: flex;
@@ -367,9 +376,9 @@ footer{
 .icon{
     color: white;
     position: fixed;
-    right: 0px;
-    top: 50px;
-    font-size: 25px;
+    right: 0;
+    top: 35px;
+    font-size: 35px;
     height: 100%;
     display: none;
     opacity: 0;
@@ -395,6 +404,10 @@ nav{
 .container{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    gap: 5px;
+}
+.item{
+    margin: 15px;
 }
 
 
@@ -430,11 +443,12 @@ footer i{
     size: 2px;
 }
 }
+
+
 @media screen and ( max-width: 750px){
-    .logo {
+.logo {
 width: 70px;
 margin-left: 5px;
-display: inline-block;
 }
 
 header{
@@ -446,8 +460,8 @@ header{
 .icon{
     display: flex;
     opacity: 1;
-    margin-right: 10px;
     cursor: pointer;
+    margin-right: 10px;
 
 }
 
@@ -497,6 +511,6 @@ footer h4,footer h5{
     padding: 5px;
 }
 .containerProductos{
-    gap: 2px;
+    gap: 10px;
 }
 }
