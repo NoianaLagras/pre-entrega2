@@ -414,13 +414,13 @@ header{
     opacity: 0;
     visibility: hidden;
     background-color: rgba(255, 255, 255, 0.863);
-    transition: all 2s;
+    transition: all 1s;
 }
 .menu li{
     display: block;
     line-height: 15px ;
     margin:10px 0px;
-    transition: all 2s;
+    transition: all 1s;
 
 }
 #check:checked ~ .menu{
