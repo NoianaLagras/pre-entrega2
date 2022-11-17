@@ -301,6 +301,50 @@ grid-area: redes;
     grid-area: medida;
 }
 
+.fondoProductos{
+background-color: #b8dac2;
+}
+.containerProductos{
+
+    display: grid;
+    margin: 20px auto;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% auto ;
+    grid-template-areas: 
+    "Anillos Pulseras Collares"
+    "Todos Todos Todos"
+}
+
+.itemTodos{
+    grid-area: Todos;
+}
+.itemAnillos{
+    grid-area: Anillos;
+}
+.itemCollares{
+    grid-area: Collares;
+}
+.itemPulseras{
+    grid-area: Pulseras;
+}
+.containerProductos img{
+    padding: 0 10px;
+}
+.containerProductos p{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    
+}
+.itemTodos, .itemAnillos, .itemCollares, .itemPulseras{
+    background-color: rgba(255, 255, 255, 0.767);
+    border: 5px solid rgba(0, 0, 0, 0.411);
+    margin: 10px 5px;
+    max-width: 100%;
+}
 
 .boxFooter{
     display: flex;
@@ -449,5 +493,7 @@ footer h4,footer h5{
     font-size: 10px;
     padding: 5px;
 }
-
+.containerProductos{
+    gap: 2px;
+}
 }
