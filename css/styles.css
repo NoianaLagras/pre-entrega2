@@ -505,6 +505,7 @@ display: none;
 
 footer{
     font-size: 7px;
+    bottom: 0;
 }
 footer h4,footer h5{
     font-size: 10px;
