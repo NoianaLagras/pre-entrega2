@@ -319,6 +319,9 @@ footer{
 /* bars */
 .icon{
     color: white;
+    position: fixed;
+    right: 0px;
+    top: 50px;
     font-size: 25px;
     height: 100%;
     display: none;
@@ -387,7 +390,11 @@ margin-left: 5px;
 display: inline-block;
 }
 
+header{
+    width: 100%;
+    height: 100px;
 
+}
 
 .icon{
     display: flex;
@@ -396,10 +403,7 @@ display: inline-block;
     cursor: pointer;
 
 }
-header{
-    width: 100%;
-    height: 100px;
-}
+
 .menu{
     display: flex;
     flex-direction: column;
