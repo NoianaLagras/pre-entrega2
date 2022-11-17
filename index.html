@@ -13,11 +13,14 @@
     <header>
         <div>
           <a href="./index.html">
-          <img src="./img/Logo 1.png" alt="Logo">
+          <img src="./img/Logo 1.png" alt="Logo" class="logo">
           </a>
           <h6>Neathur Shop...</h6>
           </div>
         <nav>
+          <div class="navBars">
+            <input type="checkbox" name="" id="check">
+            <label class="bars" for="check"><i class="fa-solid fa-bars fa-2x icon"></i></label>
             <ul class="menu">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="">Productos</a>
@@ -36,12 +39,14 @@
                 </li>
                 <li><a href="./pages/contacto.html"> Contacto</a></li>
             </ul>
-            
+          </div>
         </nav>
-        <form class="d-flex" role="search">
+        <div class="buscador">
+          <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button  class="btn btn-outline-dark" type="submit" >Search</button>
-        </form>
+          </form>
+        </div>
     </header>
 <!-- carrusel-->
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
