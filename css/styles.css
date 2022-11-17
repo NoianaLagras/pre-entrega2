@@ -310,7 +310,7 @@ background-color: #b8dac2;
     margin: 20px auto;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30% auto ;
+    grid-template-rows: auto;
     grid-template-areas: 
     "Anillos Pulseras Collares"
     "Todos Todos Todos"
@@ -318,6 +318,7 @@ background-color: #b8dac2;
 
 .itemTodos{
     grid-area: Todos;
+    max-width: 100%;
 }
 .itemAnillos{
     grid-area: Anillos;
@@ -329,20 +330,22 @@ background-color: #b8dac2;
     grid-area: Pulseras;
 }
 .containerProductos img{
-    padding: 0 10px;
+    margin: 0 auto;
 }
 .containerProductos p{
-    text-decoration: none;
     color: black;
     font-size: larger;
     text-align: center;
-    padding: 10px;
     
 }
+.containerProductos p:hover{
+    text-transform: uppercase;
+    text-decoration: underline 3px crimson;
+}
+
 .itemTodos, .itemAnillos, .itemCollares, .itemPulseras{
     background-color: rgba(255, 255, 255, 0.767);
-    border: 5px solid rgba(0, 0, 0, 0.411);
-    margin: 10px 5px;
+    margin: 10px 15px;
     max-width: 100%;
 }
 
