@@ -311,7 +311,7 @@ background-color: #b8dac2;
 .containerProductos{
 
     display: grid;
-    margin: 60px auto;
+    margin: 90px auto;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
